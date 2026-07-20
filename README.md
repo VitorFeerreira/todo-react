@@ -1,8 +1,12 @@
 # Todo React
 
-Aplicação de gerenciamento de tarefas desenvolvida em React, permitindo criar, visualizar, editar e remover tarefas.
+Aplicação de gerenciamento de tarefas desenvolvida em React, permitindo criar, visualizar e organizar atividades.
 
-O projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do React, como componentes, estados, hooks, consumo de API e organização de uma aplicação front-end.
+O projeto foi desenvolvido com o objetivo de praticar os fundamentos do React, como gerenciamento de estados, utilização de hooks, manipulação de eventos, consumo de API REST e integração entre uma aplicação front-end e uma API externa.
+
+A aplicação permite cadastrar tarefas informando título, descrição e tempo estimado para conclusão. Também possibilita acompanhar o andamento das atividades através de um checklist, podendo marcar tarefas como concluídas, desmarcá-las e removê-las.
+
+O projeto utiliza uma API separada criada com JSON Server, responsável pelo armazenamento e gerenciamento dos dados.
 
 ## 🚀 Demonstração
 
@@ -38,8 +42,8 @@ API hospedada:
 
 ## 📌 Funcionalidades
 
-- ✅ Listagem de tarefas
-- ✅ Criação de novas tarefas
-- ✅ Edição de tarefas
+- ✅ Criação de tarefas informando:
+- ✅ Visualização das tarefas cadastradas
+- ✅ Checklist de acompanhamento:
 - ✅ Exclusão de tarefas
-- ✅ Atualização dos dados através de API externa
+- ✅ Integração com API REST para persistência dos dados
