@@ -12,7 +12,7 @@ Aplicação hospedada:
 
 API hospedada:
 
-🔗 https://todo-api-1-19e1.onrender.com/
+🔗 https://todo-api-1-19e1.onrender.com
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -45,3 +45,22 @@ API hospedada:
 - ✅ Atualização dos dados através de API externa
 
 ## 📂 Estrutura do projeto
+
+todo-react
+│
+├── public
+├── src
+│ ├── components
+│ ├── pages
+│ └── services
+│
+├── package.json
+└── README.md
+
+A API foi separada em um repositório próprio:
+
+todo-api
+│
+├── db.json
+├── package.json
+└── JSON Server
